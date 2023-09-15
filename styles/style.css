@@ -1,0 +1,251 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* header and navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 50px;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+.ctc-primary {
+    color: #FD6E0A;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background-color: #FFF8F3;
+}
+
+
+/* header and banner styles  */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 50px 50px 0px 200px;
+}
+
+.banner-iamge {
+    padding-left: 320px;
+}
+
+/* about styles */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.about {
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 130px 150px;
+}
+
+.about-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.about-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #757575;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+/* waht-i-do */
+
+.section-tilte {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #181818;
+}
+
+.section-description {
+    text-align: center;
+    width: 909px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #757575;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+skill {
+    padding: 30px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume styles */
+
+.resume-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 105px;
+}
+
+.resume {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-item .title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-item .sub-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.resume-item .description-title {
+    color: #757575;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.resume-button {
+    text-align: center;
+    margin-top: 65px;
+}
+
+/* contact styles */
+
+.contact {
+    display: flex;
+    padding: 50px 200px;
+    background: #FFF8F3;
+    gap: 117px;
+}
+
+.contact .section-tilte {
+    text-align: left;
+}
+
+.contact-description {
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact a {
+    text-decoration: none;
+}
